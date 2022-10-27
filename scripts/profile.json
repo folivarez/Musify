@@ -1,0 +1,64 @@
+{
+    "profiles": 
+        [
+            {   
+            "id": 1,
+            "nombre": "Luis Alberto Spinetta",
+            "edad": 65,
+            "zona": "CABA",
+            "valoracion": 5,
+            "email": "spinneta@gmail.com",
+            "telefono": "123456789",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi reiciendis facere, velit repudiandae voluptatum est suscipit alias possimus doloribus ipsam eveniet laboriosam blanditiis. Iusto ut aperiam natus quidem quod quae?",
+            "foto": "https://www.lanacion.com.ar/2150000-spinneta.jpg",
+            "instrumentos": [
+                    "Guitarra",
+                    "Bajo",
+                    "Teclado",
+                    "Voz"
+                ],
+            "generos": [
+                    "Rock",
+                    "Pop",
+                    "Folk",
+                    "Alternativo"
+                ],
+            "canciones": [
+                    "tema1",
+                    "tema2",
+                    "tema3",
+                    "tema4"
+                ]
+            },
+            {   
+            "id": 2,
+            "nombre": "Charly García",
+            "edad": 65,
+            "zona": "CABA",
+            "valoracion": 5,
+            "email": "charly@gmail.com",
+            "telefono": "123456789",
+            "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi reiciendis facere, velit repudiandae voluptatum est suscipit alias possimus doloribus ipsam eveniet laboriosam blanditiis. Iusto ut aperiam natus quidem quod quae?",
+            "foto": "https://www.lanacion.com.ar/2150000-charly.jpg",
+            "instrumentos": [
+                    "Guitarra",
+                    "Bajo",
+                    "Teclado",
+                    "Voz"
+                ],
+            "generos": [
+                    "Rock",
+                    "Pop",
+                    "Folk",
+                    "Alternativo"
+                ],
+            "canciones": [
+                    "tema1",
+                    "tema2",
+                    "tema3",
+                    "tema4"
+                ]
+            }
+        ]
+    
+}
