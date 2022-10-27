@@ -68,7 +68,8 @@ const API = "https://run.mocky.io/v3/8610704b-d524-4a5d-ae13-e43465f12538";
 $(document).ready(function () {
     //  getProfiles(); // Trae todos los perfiles
 
-    const perfilID = $('?id').val(); 
+     const perfilID = getUrlVars(); // Obtengo el id del perfil
+    console.log("perfilID: ", perfilID);
      getProfileId(perfilID); // Trae el perfil con el id 
 });
 
@@ -97,4 +98,17 @@ function getProfileId(_id) {
     },
     "json"
   );
+}
+
+function getUrlVars()
+{
+    var products = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        products.push(hash[1]);
+        // products[hash[0]] = hash[1];
+    }
+    return products[0];
 }
